@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Movete Gym</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>🏋️ Movete Gym 🏋️</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#registro">Registro</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Sección de bienvenida -->
+  <section id="inicio" class="seccion-bienvenida">
+    <h2>Bienvenidos a Movete Gym 🏋️</h2>
+    <p>Entrená con nosotros y llevá tu cuerpo al siguiente nivel. Tenemos planes para todos los objetivos: desde los que recien comienzan hasta los mas avanzados.</p>
+  </section>
+
+  <section id="registro">
+    <h2>Registrese para entrenar</h2>
+    <form class="formulario" action="#" method="post">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="plan">Elija su plan:</label>
+      <select id="plan" name="plan">
+        <option value="basico">Fresh Start (Basico)</option>
+        <option value="full">Flex Power (Intermedio)</option>
+        <option value="premium">Elite Power (Premium)</option>
+      </select>
+
+      <label for="horario">Seleccione horario:</label>
+      <select id="horario" name="horario">
+        <option value="mañana">Despertar (Mañana)</option>
+        <option value="tarde">Post-Mañana (Tarde)</option>
+        <option value="noche">Nocturno (Noche)</option>
+      </select>
+
+      <input type="submit" value="Registrarse">
+    </form>
+  </section>
+
+  <footer id="contacto">
+    <p>📍 Av. Libertador 3767 - Vte Lopez</p>
+    <p>📧 MoveteGym@gmail.com</p>
+    <p>© 2025 Movete Gym</p>
+  </footer>
+
+</body>
+</html>
